@@ -16,6 +16,10 @@ return {
   --   "example/plugin",
   --   opts = {
   --     -- customized plugin options
+  --     -- If you have a top level recipe option that you want to use to 
+  --     -- flex some functionality, you can set it in lua/example_recipe_name.lua 
+  --     -- and access it like this:
+  --     -- nested_plugin_option = vim.g.example_recipe_option or false
   --   }
   -- },
   -- {
